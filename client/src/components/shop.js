@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react'
 import { Aside } from "../components/index";
 
-const Home = () => {
+const Shop = () => {
   return (
+    
     <div style={{ display: "flex" }}>
       <aside>
         <Aside />
       </aside>
-      <section>home</section>
+      <section>shop</section>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Shop

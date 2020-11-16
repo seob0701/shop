@@ -15,7 +15,7 @@ const Nav = () => {
       <ul className="nav_list">
         <li>
           <a href="/login">
-            <span>Login</span>
+            <b>Login</b>
           </a>
         </li>
       </ul>

@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react'
 import { Aside } from "../components/index";
 
-const Home = () => {
+const Notice = () => {
   return (
+    
     <div style={{ display: "flex" }}>
       <aside>
         <Aside />
       </aside>
-      <section>home</section>
+      <section>notice</section>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Notice
