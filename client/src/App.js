@@ -1,6 +1,6 @@
 import './App.css';
 import {Route, Switch} from 'react-router-dom'
-import {Nav,Home,Diary, Notice, Shop} from './components/index'
+import {Nav,Home,Diary, Notice, Shop, Login, Register} from './components/index'
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
         <Route exact path="/diary" component={Diary}/>
         <Route exact path="/notice" component={Notice}/>
         <Route exact path="/shop" component={Shop}/>
+        <Route exact path="/signin" component={Login}/>
+        <Route exact path="/signup" component={Register}/>
       </Switch>
     </div>
   );

@@ -8,6 +8,7 @@ const Aside = () => {
       style={{
         fontFamily: "Architects Daughter, cursive",
         width: "250px",
+        margin: "0 15px",
       }}
     >
       <img src={profile} alt="" style={{ width: "250px", height: "250px" }} />
@@ -17,10 +18,20 @@ const Aside = () => {
       >
         <b>Shim Yu Seob</b>
         <p>this is my Portfolio</p>
-        <a href="https://www.instagram.com/shimyuseob/" target="_blank">
+        <a
+          href="https://www.instagram.com/shimyuseob/"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "black" }}
+        >
           <RiInstagramFill />
         </a>
-        <a href="https://github.com/seob717/blog" target="_blank">
+        <a
+          href="https://github.com/seob717"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "black", marginLeft: "5px" }}
+        >
           <RiGithubFill />
         </a>
       </section>

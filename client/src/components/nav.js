@@ -11,10 +11,10 @@ const Nav = () => {
         margin: "10px 50px",
       }}
     >
-      <h1>SEOB</h1>
+      <h1><a href="/" style={{color:'black'}}>SEOB</a></h1>
       <ul className="nav_list">
         <li>
-          <a href="/login">
+          <a href="/signin">
             <b>Login</b>
           </a>
         </li>

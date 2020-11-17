@@ -7,7 +7,7 @@ const Home = () => {
       <aside>
         <Aside />
       </aside>
-      <section>home</section>
+      <section style={{flex:"1" ,marginLeft:'15px'}}>home</section>
     </div>
   );
 };

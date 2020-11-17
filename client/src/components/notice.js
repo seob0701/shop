@@ -8,7 +8,7 @@ const Notice = () => {
       <aside>
         <Aside />
       </aside>
-      <section>notice</section>
+      <section style={{flex:"1" ,marginLeft:'15px'}}>notice</section>
     </div>
   )
 }
