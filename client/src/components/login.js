@@ -1,5 +1,4 @@
 import React from "react";
-import { Aside } from "../components/index";
 import { useHistory } from "react-router-dom";
 import { MdEmail, MdLock } from "react-icons/md";
 
@@ -7,15 +6,14 @@ const Login = () => {
   const history = useHistory();
   return (
     <div style={{ display: "flex" }}>
-      <aside>
-        <Aside />
-      </aside>
       <section
         style={{
           display: "flex",
           justifyContent: "center",
+          alignItems: "center",
           flex: "1",
           marginLeft: "15px",
+          padding: "100px 0",
         }}
       >
         <form

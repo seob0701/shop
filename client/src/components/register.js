@@ -6,15 +6,13 @@ import { CgUserlane } from "react-icons/cg";
 const Register = () => {
   return (
     <div style={{ display: "flex" }}>
-      <aside>
-        <Aside />
-      </aside>
       <section
         style={{
           display: "flex",
           justifyContent: "center",
           flex: "1",
           marginLeft: "15px",
+          padding: "100px 0",
         }}
       >
         <form
